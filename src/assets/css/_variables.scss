@@ -1,0 +1,19 @@
+/* Variables */
+$header-height: 62px;
+
+:root {
+  --header-height: $header-height;
+  --common-page-height: calc(100vh - #{$header-height});
+  --defautl-font-color: rgba(255, 255, 255, 0.87);
+  --app-primary-color: #1581ab;
+  --app-secondary-color: #fd4e5d;
+  --link-color: #1DB6F2;
+  --link-hover-color: #1DB6F2;
+  --link-active-color: #1DB6F2;
+  --error-color: #fd4e5d;
+  --txt-app-color: #038ac2;
+  --app-main-color: #1DB6F2;
+  --btn-confirm-color: #219dce;
+  --yellow-color: #C77C0C;
+  --color-footer: rgba(0,0,0,.75);
+}

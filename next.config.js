@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  // TODO: convert craco
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

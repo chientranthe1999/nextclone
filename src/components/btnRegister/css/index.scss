@@ -1,0 +1,14 @@
+.btn-register-section {
+    display: block;
+    margin: 0 auto;
+    background: var(--app-secondary-color);
+    border-color: var(--app-secondary-color);
+    height: fit-content;
+    border-radius: 8px;
+
+
+    &:active, &:hover {
+        background: var(--app-secondary-color);
+        border-color: transparent;
+    }
+}
