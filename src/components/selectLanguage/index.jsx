@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Select } from 'antd';
-import { getListCountry } from "../../pages/auth/languageSetting/actions";
-import { actionChangeLanguage } from '../../pages/auth/system/actions';
+import { getListCountry } from "@/logic/auth/languageSetting/actions";
+import { actionChangeLanguage } from '@/logic/auth/system/actions';
 import {CaretDownOutlined} from '@ant-design/icons'
 
 const SelectLanguage = () => {

@@ -1,6 +1,6 @@
 import { Button } from 'antd';
-import { LogoSSHOP } from '../../../assets/images';
-import { PhoneIcon, EmailIcon } from '../../../assets/icons';
+import { LogoSSHOP } from '@/assets/images';
+import { PhoneIcon, EmailIcon } from '@/assets/icons';
 import { MenuOutlined } from '@ant-design/icons';
 
 const TopBar = (props) => {
